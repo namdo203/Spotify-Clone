@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Font */
+body {
+    font-family: "Roboto";
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+}
+
+h1, h2, h3 ,h4 {
+    font-family: "Roboto Condensed";
+}
+
+h1 {
+    font-size: 7em;
+}
+
+
+/* Nav bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.nav-bar-table td {
+    
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#spotify-logo {
+    width: 125px;
+}
+
+/* Background with text */
+header {
+    background-image: url(/Spotify-Clone/images/landing.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    height: 650px;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
