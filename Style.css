@@ -18,9 +18,8 @@ h1, h2, h3 ,h4 {
 }
 
 h1 {
-    font-size: 7em;
+    font-size: 5em;
 }
-
 
 /* Nav bar */
 .nav-bar {
@@ -29,8 +28,18 @@ h1 {
     padding-top: 10px;
 }
 
+.nav-bar-table {
+    font-size: 15px;
+}
+
+.nav-bar-table a {
+    text-decoration: none;
+    color: sienna;
+    font-weight: bold;
+
+}
+
 .nav-bar-table td {
-    
     padding: 5px 10px;
     text-align: center;
 }
@@ -49,4 +58,81 @@ header {
     color: white;
     text-align: center;
     padding-top: 150px;
+}
+
+#quote {
+    font-style: italic;
+    font-size: 2em;
+    opacity: 0.6;
+}
+
+/* Iteration 2 : what is on Spotify section */
+
+.whatsOn {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline olive;
+    text-underline-offset: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container h3 {
+    color: rgb(45, 131, 45);
+    font-size: 1.5em;
+}
+
+.service-box img {
+    width: 125px;
+}
+
+.service-box {
+    font-size: 1.7em;
+    text-align: center;
+    /* border: 2px solid rgb(138, 73, 73);
+    border-radius: 10%;
+    box-sizing: content-box;
+    box-shadow: 2px 2px 10px 0 black; */
+    margin: 20px 5% 30px 5%;
+    padding: 20px;
+}
+
+/* Iteration 3 : the green section */
+.topGreen {
+    background-color: rgb(45, 131, 45);
+    text-align: left;
+    font-size: 2em;
+    padding: 5%;
+}
+
+.topGreen h2 {
+    text-decoration: underline olive ;
+    text-underline-offset: 50%;
+    margin: 20px
+}
+
+.midGreen {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.left-object, .right-object {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.center-object {
+    padding: 10%;
+}
+
+#logo-white {
+    width: 125px;
+}
+
+#Kanye {
+    width: 300px;
 }
