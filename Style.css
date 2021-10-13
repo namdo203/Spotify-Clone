@@ -41,7 +41,7 @@ h1 {
 
 /* Background with text */
 header {
-    background-image: url(/Spotify-Clone/images/landing.jpg);
+    background-image: url(/images/landing.jpg);
     background-position: 0 0;
     background-size: cover;
     height: 650px;
